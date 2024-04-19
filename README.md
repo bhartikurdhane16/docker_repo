@@ -7,7 +7,7 @@
   - sudo docker inspect <container id>           #shows detail information of container in jeson formate
   - sudo docker inspect <container ip>           #get IP from json file  ----it host application on terminal.
 
-## ontainer is running on isolated network , so we are unable to get application on external public network ie over internet 
+## Container is running on isolated network , so we are unable to get application on external public network ie over internet 
 #to run container on public network need to map port.
 #default container use bridge network.
 
