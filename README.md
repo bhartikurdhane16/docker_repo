@@ -1,6 +1,6 @@
 ## Docker commands.
 
- -  docker run nginx                             #it will run container in forground & we can not access in terminal 
+ -  docker run nginx                            -it will run container in forground & we can not access in terminal 
   - docker run -d nginx                          #it will run the command in detach mode from background
   - sudo docker ps                               #it shows all running containers
   - sudo docker ps -a                            #Show all containers with state
