@@ -72,7 +72,7 @@ Ex. docker cp b1ba3fc515c2:/home/123.txt /home/ubuntu/123.txt
 
 
 
-hoiiio
+
 
 
 
