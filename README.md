@@ -48,7 +48,7 @@ here map port & need to whitlist port in security group of server
  Ex.
  sudo docker exec -it e277bd3db71d /bin/bash
 
- curl localhost     --------------- run current runing application inside container
+ curl localhost                                 #run current runing application inside container
 
  exit     ----------------------- to exit container & go on host terminal
 
