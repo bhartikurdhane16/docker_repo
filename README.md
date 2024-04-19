@@ -31,10 +31,10 @@ here map port & need to whitlist port in security group of server
  -  docker run -d -p 8081:80 --name=container1 nginx          #create container from nginx image with - customized port 8081
 
  ## create container with random host port
-  syntax: docker run -d -P <image name>                     # capital "P" assign random host port autimatically
+  syntax: docker run -d -P <image name>                             # capital "P" assign random host port autimatically
  - sudo docker run -d -P --name=container2 nginx    
 
- - sudo docker exec -it <containerid/container name> <command>    ---------------- it exicute commands in container without enter in container
+ - sudo docker exec -it <containerid/container name> <command>     it exicute commands in container without enter in container
 
  -it: interactive mode
  exec : exicution 
