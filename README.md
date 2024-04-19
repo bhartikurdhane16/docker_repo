@@ -50,7 +50,7 @@ here map port & need to whitlist port in security group of server
 
  curl localhost                                 #run current runing application inside container
 
- exit     ----------------------- to exit container & go on host terminal
+ exit                                           # to exit container & go on host terminal
 
 
  docker start/stop <container id>    # start /stop container , we can also start exited(0) containers
