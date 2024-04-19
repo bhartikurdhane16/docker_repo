@@ -34,7 +34,7 @@ here map port & need to whitlist port in security group of server
   syntax: docker run -d -P <image name>                               # capital "P" assign random host port autimatically
  - docker run -d -P --name=container2 nginx    
 
- - docker exec -it <containerid/container name> <command>        #exicute commands in container without enter in container
+ docker exec -it <containerid/container name> <command>        #exicute commands in container without enter in container
 
  -it: interactive mode
  exec : exicution 
