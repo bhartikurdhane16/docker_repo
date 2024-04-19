@@ -12,7 +12,7 @@
 ## by default container use bridge network.
 
 ## [map -p HOST_PORT:CONTAINER_PORT]   
-# map port & need to whitlist port in security group
+here map port & need to whitlist port in security group
 
  sudo docker run -d -p 8080:80 nginx    # hit <public_ip>: 8080 ----nginx accessed
  #-p : add customized host port
