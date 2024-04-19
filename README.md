@@ -24,7 +24,7 @@ docker run -d -P httpd                           # -P assigin auto host port , w
 hit <public_ip>:<new_port>                            # accessable over public network 
 
   
- docker images                                      #shows all images list
+docker images                                      #shows all images list
   
 ## create container with costomized host port
 syntax: docker run -d -p <host_port>:<container_port> <image name>
