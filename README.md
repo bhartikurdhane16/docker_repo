@@ -17,7 +17,7 @@ here map port & need to whitlist port in security group of server
 - sudo docker run -d -p 8080:80 nginx                  #here we map container port 80 to host port 8080   
 - hit <public_ip>:8080                                 # now nginx accessed over public network
 
- #-p : add customized host port
+ #-p : option add customized host port
  #-P : if use capital "P" docker auto assign host port randamly
 
 - sudo docker run -d -P httpd    # -P assigin auto host port , whitelist port in SG 
