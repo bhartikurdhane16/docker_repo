@@ -15,12 +15,12 @@
 here map port & need to whitlist port in security group of server
 
 - sudo docker run -d -p 8080:80 nginx  --------------here map port 80 to 8080 port  
- - hit <public_ip>: 8080 ---------------------nginx accessed
+- hit <public_ip>: 8080 ---------------------nginx accessed
  #-p : add customized host port
  #-P : if use capital "P" docker auto assign host port randamly
 
- sudo docker run -d -P httpd    # -P assigin auto host port , whitelist port in SG 
- hit <public_ip>:<maped port>
+- sudo docker run -d -P httpd    # -P assigin auto host port , whitelist port in SG 
+- hit <public_ip>:<maped port>
 
   
  sudo docker images     ------------ shows all images list
