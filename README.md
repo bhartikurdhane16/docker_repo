@@ -21,7 +21,7 @@ here map port & need to whitlist port in security group of server
  #-P : capital "P" automatically ramdom host port
 
 - sudo docker run -d -P httpd                           # -P assigin auto host port , whitelist port in SG 
-- hit <public_ip>:<new_port>
+- hit <public_ip>:<new_port>                            # 
 
   
  - sudo docker images     ------------ shows all images list
