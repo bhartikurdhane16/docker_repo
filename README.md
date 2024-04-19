@@ -59,7 +59,7 @@ here map port & need to whitlist port in security group of server
 
  docker kill <container_id>                     # stop running container forcefully  with exit code (137), we can restrat container using start command 
 
-docker kill 'docker ps -q'   # it kill/terminalte all running containers ----not refered to use this command in real time  ----we can not retrive/start killed containers 
+docker kill 'docker ps -q'                      # it kill/terminalte all running containers ----not refered to use this command in real time  ----we can not retrive/start killed containers 
 
 docker rm <container_id>  # remove process from deamon as well , we can not start container again  # cant apply on running containr , need to stop container first
 
