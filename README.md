@@ -8,7 +8,7 @@
   - sudo docker inspect <container ip>           #get IP from json file  ----it host application on terminal.
 
 ## Container is running on isolated network , so we are unable to get application on external public network ie over internet 
-#to run container on public network need to map port.
+## to run container on public network need to map port.
 #default container use bridge network.
 
 [# map -p HOST_PORT:CONTAINER_PORT]   # map port & need to whitlist port in security group
