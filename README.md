@@ -2,8 +2,8 @@
 
  -  docker run nginx                             # it will run container in forground & we can not access in terminal 
   - docker run -d nginx                          # it will run the command in detach mode from background
-  - sudo docker ps              # it shows all running containers
-  - sudo docker ps -a           #Show all containers with state
+  - sudo docker ps                               # it shows all running containers
+  - sudo docker ps -a                            #Show all containers with state
   - sudo docker inspect <container id>    # shows detail information of container in jeson formate
   - sudo docker inspect <container ip>    # get IP from json file  ----it host application on terminal.
 
