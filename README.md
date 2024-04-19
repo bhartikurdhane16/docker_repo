@@ -32,15 +32,15 @@ here map port & need to whitlist port in security group of server
 
  ## create container with random host port
   syntax: docker run -d -P <image name>                               # capital "P" assign random host port autimatically
- - sudo docker run -d -P --name=container2 nginx    
+ - docker run -d -P --name=container2 nginx    
 
- - sudo docker exec -it <containerid/container name> <command>     it exicute commands in container without enter in container
+ - docker exec -it <containerid/container name> <command>        #exicute commands in container without enter in container
 
  -it: interactive mode
  exec : exicution 
 
  Ex.
- sudo docker exec -it e277bd3db71d ls
+ docker exec -it e277bd3db71d ls
 
 
  - sudo docker exec -it <containerid/container_name> /bin/bash    ------------------ it enter in container
