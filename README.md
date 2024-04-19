@@ -70,7 +70,7 @@ docker top <container_id>                      # shows processess of running con
 ## we can also copy the deployment file from local host m/c to container
 
 #copy file/directory from local host to container
-suntax: docker cp <option><file path><container_id>:<destination path>
+syntax: docker cp <option><file path><container_id>:<destination path>
 Ex. docker cp /home/ubuntu/test.txt b1ba3fc515c2:/home/test.txt     # here we copy file from local system to container 
 
 #copy file/directory from  container to local system
