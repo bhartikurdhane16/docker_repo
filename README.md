@@ -20,7 +20,7 @@ here map port & need to whitlist port in security group of server
  #-p : option use to map customized host port
  #-P : capital "P" automatically ramdom host port
 
-- sudo docker run -d -P httpd    # -P assigin auto host port , whitelist port in SG 
+- sudo docker run -d -P httpd                           # -P assigin auto host port , whitelist port in SG 
 - hit <public_ip>:<new_port>
 
   
