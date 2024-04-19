@@ -20,7 +20,7 @@ here map port & need to whitlist port in security group of server
  #-P : if use capital "P" docker auto assign host port randamly
 
 - sudo docker run -d -P httpd    # -P assigin auto host port , whitelist port in SG 
-- hit <public_ip>:<maped_port>
+- hit <public_ip>:<new_port>
 
   
  - sudo docker images     ------------ shows all images list
