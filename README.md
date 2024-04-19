@@ -20,13 +20,14 @@ here map port & need to whitlist port in security group of server
  #-p : option use to map customized host port
  #-P : capital "P" automatically ramdom host port
 
-- sudo docker run -d -P httpd                           # -P assigin auto host port , whitelist port in SG 
+- docker run -d -P httpd                           # -P assigin auto host port , whitelist port in SG 
 - hit <public_ip>:<new_port>                            # accessable over public network 
 
   
- - sudo docker images                                      #shows all images list
+ - docker images                                      #shows all images list
   
- - sudo docker run -d -p 8081:80 --name=container1 nginx   #create container from nginx image with - customized port 8081
+  
+ -  docker run -d -p 8081:80 --name=container1 nginx   #create container from nginx image with - customized port 8081
 
  - sudo docker run -d -P --name=container2 nginx    ---------------------------  create container with randome port
 
