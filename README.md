@@ -14,8 +14,8 @@
 ## [map -p HOST_PORT:CONTAINER_PORT]   
 here map port & need to whitlist port in security group of server
 
-- sudo docker run -d -p 8080:80 nginx                  #here we map container port 80 to 8080   
-- hit <public_ip>:8080                                 nginx accessed
+- sudo docker run -d -p 8080:80 nginx                  #here we map container port 80 to host port 8080   
+- hit <public_ip>:8080                                 # now nginx accessed
  #-p : add customized host port
  #-P : if use capital "P" docker auto assign host port randamly
 
