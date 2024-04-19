@@ -4,8 +4,8 @@
   - docker run -d nginx                                #it will run the command in detach mode from background
   - docker ps                                     #it shows all running containers
   - docker ps -a                                  #Show all containers with state
-  - docker inspect <container id>                 #shows detail information of container in jeson formate
-  - docker inspect <container ip>                 #it host application on terminal(get ip fron json file).
+docker inspect <container id>                 #shows detail information of container in jeson formate
+docker inspect <container ip>                 #it host application on terminal(get ip fron json file).
 
 ## Container is running on isolated network , so we are unable to get application on external public network ie over internet 
 ## To run container on public network need to map port.
