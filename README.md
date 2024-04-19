@@ -14,25 +14,25 @@
 ## [map -p HOST_PORT:CONTAINER_PORT]   
 here map port & need to whitlist port in security group of server
 
-- docker run -d -p 8080:80 nginx                  #here we map container port 80 to host port 8080   
-- hit <public_ip>:8080                                 # now nginx accessed over public network
+docker run -d -p 8080:80 nginx                  #here we map container port 80 to host port 8080   
+hit <public_ip>:8080                                 # now nginx accessed over public network
 
  #-p : option use to map customized host port
  #-P : capital "P" automatically ramdom host port
 
-- docker run -d -P httpd                           # -P assigin auto host port , whitelist port in SG 
-- hit <public_ip>:<new_port>                            # accessable over public network 
+docker run -d -P httpd                           # -P assigin auto host port , whitelist port in SG 
+hit <public_ip>:<new_port>                            # accessable over public network 
 
   
- - docker images                                      #shows all images list
+ docker images                                      #shows all images list
   
   ## create container with costomized host port
   syntax: docker run -d -p <host_port>:<container_port> <image name>
- -  docker run -d -p 8081:80 --name=container1 nginx                 #create container from nginx image with - customized port 8081
+ docker run -d -p 8081:80 --name=container1 nginx                 #create container from nginx image with - customized port 8081
 
  ## create container with random host port
   syntax: docker run -d -P <image name>                               # capital "P" assign random host port autimatically
- - docker run -d -P --name=container2 nginx    
+ docker run -d -P --name=container2 nginx    
 
  docker exec -it <containerid/container name> <command>        #exicute commands in container without enter in container
 
