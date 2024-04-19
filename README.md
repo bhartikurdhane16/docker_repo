@@ -27,7 +27,7 @@ here map port & need to whitlist port in security group of server
  - docker images                                      #shows all images list
   
   ## create container
-  syntax: docker run 
+  syntax: docker run -d -p <hostport>
  -  docker run -d -p 8081:80 --name=container1 nginx   #create container from nginx image with - customized port 8081
 
  - sudo docker run -d -P --name=container2 nginx    ---------------------------  create container with randome port
