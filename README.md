@@ -65,7 +65,7 @@ docker rm <container_id>                        # remove process from deamon as 
 
 docker logs <container_id>                     # shows container logs
 
-docker top <container_id>      # shows processess of running container
+docker top <container_id>                      # shows processess of running container
 
 ## we can also copy the deployment file from local host m/c to container
 
