@@ -61,7 +61,7 @@ here map port & need to whitlist port in security group of server
 
 docker kill 'docker ps -q'                      # it kill/terminalte all running containers , not refered to use this command in real time   
 
-docker rm <container_id>                        # remove process from deamon as well , we can not restart container again   # cant apply on running containr , need to stop container first
+docker rm <container_id>                        # remove process from deamon as well , we can not restart container again & to perform this command   # cant apply on running containr , need to stop container first
 
 docker logs <container_id>    # shows container logs
 
