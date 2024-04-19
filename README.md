@@ -37,7 +37,7 @@ here map port & need to whitlist port in security group of server
  sudo docker exec -it e277bd3db71d ls
 
 
- sudo docker exec -it <containerid/container_name> /bin/bash    ------------------ it enter in container
+ - sudo docker exec -it <containerid/container_name> /bin/bash    ------------------ it enter in container
 
  Ex.
  sudo docker exec -it e277bd3db71d /bin/bash
