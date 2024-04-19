@@ -5,13 +5,13 @@
   - sudo docker ps                               ------------it shows all running containers
   - sudo docker ps -a                            ------------Show all containers with state
   - sudo docker inspect <container id>           ------------shows detail information of container in jeson formate
-  - sudo docker inspect <container ip>           -----------------it host application on terminal(get ip ).
+  - sudo docker inspect <container ip>           -----------------it host application on terminal(get ip fron json file).
 
 ## Container is running on isolated network , so we are unable to get application on external public network ie over internet 
 ## to run container on public network need to map port.
 ## by default container use bridge network.
 
-[## map -p HOST_PORT:CONTAINER_PORT]   # map port & need to whitlist port in security group
+[map -p HOST_PORT:CONTAINER_PORT]   # map port & need to whitlist port in security group
 
  sudo docker run -d -p 8080:80 nginx    # hit <public_ip>: 8080 ----nginx accessed
  #-p : add customized host port
