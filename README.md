@@ -53,7 +53,7 @@ here map port & need to whitlist port in security group of server
  exit                                           # to exit container & go on host terminal
 
 
- docker start/stop <container id>    # start /stop container , we can also start exited(0) containers
+ docker start/stop <container id>               # start /stop container , we can also start exited(0) containers
 
  docker ps -q   # shows only running container id
 
