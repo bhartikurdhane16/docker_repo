@@ -36,14 +36,14 @@ docker run -d -P --name=container2 nginx
 
 docker exec -it <containerid/container name> <command>        #exicute commands in container without enter in container
 
- -it: interactive mode
- exec : exicution 
+   -it: interactive mode
+   exec : exicution 
 
  Ex.
  docker exec -it e277bd3db71d ls
 
 
- - docker exec -it <containerid/container_name> /bin/bash                 #enter in container
+docker exec -it <containerid/container_name> /bin/bash                 #enter in container
 
  Ex.
  sudo docker exec -it e277bd3db71d /bin/bash
