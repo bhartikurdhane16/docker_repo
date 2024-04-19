@@ -55,7 +55,7 @@ here map port & need to whitlist port in security group of server
 
  docker start/stop <container id>               # start /stop container , we can also start exited(0), kill(137) containers
 
- docker ps -q   # shows only running container id
+ docker ps -q                                   # shows running container id only
 
  docker kill <container_id>    # stop running container forcefully  with exit code (137)  , we can restrat using start command 
 
