@@ -1,3 +1,4 @@
 FROM nginx
-RU yum update -y
+RUN yum update -y
+
 
