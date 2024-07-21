@@ -1,5 +1,6 @@
 FROM ubuntu
 RUN yum update -y
+RUN yum instal
 RUN echo "hello world" > /tmp/testfile
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page296/oxer.zip /opt
 RUN unzip oxer.zip -C /opt
