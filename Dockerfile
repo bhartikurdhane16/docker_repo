@@ -11,6 +11,7 @@ CMD ["//catalina.sh", "run"]
 
 
 
-#
+#Steps to create docker file
+
 
 
