@@ -20,7 +20,7 @@ RUN apt install nginx -y
 #docker build -t <imagename> .  ------to build docker image
 # ex.  docker build -t testimage .
 #docker images 
-#docker run -d -P --name=<containername> testimage   OR  docker run -it --name < testimage 
+#docker run -d -P --name=<containername> testimage   OR  docker run -it --name <container name> testimage 
 #docker ps -a
 
 
