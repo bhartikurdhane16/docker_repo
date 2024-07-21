@@ -16,7 +16,9 @@ CMD ["/catalina.sh", "run"]
 # ex.  docker build -t testimage .
 #docker images 
 #docker run -d -P --name=<containername> testimage
- 
+#docker ps -a
+
+
 
 
 
