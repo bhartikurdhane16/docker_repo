@@ -7,13 +7,14 @@ RUN tar -xvzf apache-tomcat-9.0.91.tar.gz -C /opt
 WORKDIR /opt/apache-tomcat-9.0.91 /bin/
 ENV name="jarvis"
 EXPOSE 8080
-CMD ["//catalina.sh", "run"]
+CMD ["/catalina.sh", "run"]
 
 
 
 ##commands to run docker file
 #docker build -t <imagename> .  ------to build docker image
 # ex.  docker build -t testimage .
+
 
 
 
