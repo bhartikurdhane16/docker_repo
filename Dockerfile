@@ -12,7 +12,7 @@ CMD ["//catalina.sh", "run"]
 
 
 ##commands to run docker file
-
+#
 
 
 
