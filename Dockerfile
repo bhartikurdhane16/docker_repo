@@ -1,7 +1,7 @@
 FROM ubuntu
 RUN apt update -y
 RUN apt install default-jre -y
-RUN apt install java openjdk -y
+RUN apt install default-jdk -y
 RUN echo "hello world" > /tmp/testfile
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page296/oxer.zip /opt
 RUN unzip oxer.zip -C /opt
