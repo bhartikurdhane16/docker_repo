@@ -7,7 +7,7 @@ RUN tar -xvzf apache-tomcat-9.0.91.tar.gz -C /opt
 WORKDIR /opt/apache-tomcat-9.0.91 /bin/
 ENV name="jarvis"
 EXPOSE 8080
-CMD 
+CMD [""]
 
 
 
