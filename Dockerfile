@@ -1,6 +1,6 @@
 FROM ubuntu
-RUN yum update -y
-RUN yum install java openjdk -y
+RUN apt update -y
+RUN apt install java openjdk -y
 RUN echo "hello world" > /tmp/testfile
 #ADD https://www.free-css.com/assets/files/free-css-templates/download/page296/oxer.zip /opt
 #RUN unzip oxer.zip -C /opt
