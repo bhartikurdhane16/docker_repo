@@ -1,4 +1,4 @@
 FROM nginx
 RUN yum update -y
-RUN 
+RUN echo "hello world" > 
 
