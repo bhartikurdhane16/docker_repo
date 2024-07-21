@@ -1,4 +1,4 @@
-FROM nginx
+FROM ubuntu
 RUN yum update -y
 RUN echo "hello world" > /tmp/testfile
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page296/oxer.zip
@@ -13,7 +13,8 @@ CMD ["//catalina.sh", "run"]
 
 ##commands to run docker file
 #docker build -t <imagename> .  ------to build docker image
-# ex  docker build -t testimage .
+# ex.  docker build -t testimage .
+
 
 
 
