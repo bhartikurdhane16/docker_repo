@@ -15,7 +15,7 @@ CMD ["/catalina.sh", "run"]
 #docker build -t <imagename> .  ------to build docker image
 # ex.  docker build -t testimage .
 #docker images 
-
+#docker run -d -p 
 
 
 
