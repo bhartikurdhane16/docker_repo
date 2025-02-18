@@ -10,7 +10,7 @@ FROM cdaf/linux
 RUN apt update -y
 RUN apt install nginx -y
 RUN echo "hello chetan" > /tem/testfile
-MAINTA
+MAINTAINER 
 
 
 
