@@ -13,7 +13,7 @@ RUN echo "hello chetan" > /var/testfile
 MAINTAINER bharti
 ENV name="test"
 COPY tp /tmp 
-ADD 
+
 
 
 
