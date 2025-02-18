@@ -8,7 +8,8 @@
 
 FROM cdaf/linux
 RUN apt update -y
-RUN 
+RUN apt install nginx -y
+
 
 
 
