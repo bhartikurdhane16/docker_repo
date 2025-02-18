@@ -7,7 +7,8 @@
 
 
 FROM cdaf/linux
-RUN apt update -t
+RUN apt update -y
+
 
 
 
