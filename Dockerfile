@@ -22,7 +22,7 @@ ENV name="test"
 
 
 #Create docker volume
-VOLUME []
+VOLUME ["myvolume"]
 
 
 
