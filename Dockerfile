@@ -11,7 +11,7 @@ RUN apt update -y
 RUN apt install nginx -y
 RUN echo "hello chetan" > /tem/testfile
 MAINTAINER bharti
-ENV "test"
+ENV name="test"
 
 
 
