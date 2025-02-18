@@ -9,7 +9,7 @@
 FROM ubuntu
 RUN apt update -y
 RUN apt install nginx -y
-RUN echo "hello chetan" > /tmp/testfile
+RUN echo "hello chetan" > /var/testfile
 MAINTAINER bharti
 ENV name="test"
 
