@@ -23,7 +23,7 @@ ENV name="test"
 
 #Create docker volume
 VOLUME ["/myvolume"]
-
+#sudo docker run -it --name <new cont name> --privileged=true --volumes-from mynewcont ubuntu /bin/bash
 
 
 ##commands to run docker file
