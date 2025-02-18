@@ -23,7 +23,7 @@ ENV name="test"
 
 #Create docker volume
 VOLUME ["/myvolume"]
-#sudo docker run -it --name container2 --privileged=true --volumes-from mynewcont ubuntu /bin/bash -----here we created container2 with shared volume from mynewcontainer, ie my newcont already have volume and container2 is able to check 
+#sudo docker run -it --name container2 --privileged=true --volumes-from mynewcont ubuntu /bin/bash -----here we created container2 with shared volume from mynewcontainer, ie my newcont already have volume and container2 is able to check /update data in that volume
 
 
 ##commands to run docker file
