@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu    #base image
 RUN apt update -y
 RUN apt install default-jre -y
 RUN apt install openjdk-11-jdk -y
