@@ -9,7 +9,7 @@
 FROM cdaf/linux
 RUN apt update -y
 RUN apt install nginx -y
-
+RUN echo "hell"
 
 
 
