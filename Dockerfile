@@ -23,7 +23,7 @@ ENV name="test"
 
 #Create docker volume
 VOLUME ["/myvolume"]
-#sudo docker run -it --name container2 --privileged=true --volumes-from mynewcont ubuntu /bin/bash -----here we created container2 with share
+#sudo docker run -it --name container2 --privileged=true --volumes-from mynewcont ubuntu /bin/bash -----here we created container2 with shared volume from contaner
 
 
 ##commands to run docker file
