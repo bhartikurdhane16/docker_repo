@@ -25,6 +25,7 @@ ENV name="test"
 
 
 
+
 ##commands to run docker file
 #docker build -t <imagename> .  ------to build docker image
 # ex.  docker build -t testimage .
