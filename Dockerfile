@@ -12,7 +12,7 @@ RUN apt install nginx -y
 RUN echo "hello chetan" > /var/testfile
 MAINTAINER bharti
 ENV name="test"
-COPY 
+COPY tp /
 
 
 
