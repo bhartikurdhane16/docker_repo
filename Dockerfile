@@ -23,7 +23,8 @@ RUN apt install nginx -y
 #docker run -d -P --name=<containername> testimage   OR  docker run -it --name <container name> testimage 
 #docker ps -a
 #docker attach container name------insert in container
-#docker diff container name ------
+#docker diff container name ------see the changes made in that container
+
 
 
 
