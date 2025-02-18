@@ -21,6 +21,7 @@ ENV name="test"
 #CMD ["/catalina.sh", "run"]
 
 
+#create docker volume
 
 
 ##commands to run docker file
