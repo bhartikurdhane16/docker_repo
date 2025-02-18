@@ -24,7 +24,7 @@ RUN apt install nginx -y
 #docker ps -a
 #docker attach container name------insert in container
 #docker diff container name ------see the changes made in that container
-
+#docker 
 
 
 
