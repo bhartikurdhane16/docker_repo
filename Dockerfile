@@ -6,7 +6,8 @@ RUN echo "hello world" > /tmp/testfile
 RUN apt install nginx -y
 
 
-FROM L
+FROM cdaf/linux
+
 
 
 
