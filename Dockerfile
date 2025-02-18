@@ -22,7 +22,7 @@ RUN apt install nginx -y
 #docker images 
 #docker run -d -P --name=<containername> testimage   OR  docker run -it --name <container name> testimage 
 #docker ps -a
-
+#docker attach container
 
 
 
