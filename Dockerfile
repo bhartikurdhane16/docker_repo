@@ -11,17 +11,17 @@ RUN apt update -y
 RUN apt install nginx -y
 RUN echo "hello chetan" > /tem/testfile
 MAINTAINER bharti
-EXPOSE 8080
 
 
 
 
-#ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz /opt
+
+ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz /opt
 RUN tar -xvzf apache-tomcat-9.0.91.tar.gz -C /opt
-#WORKDIR /opt/apache-tomcat-9.0.91 /bin/
-#ENV name="jarvis"
-#EXPOSE 8080
-#CMD ["/catalina.sh", "run"]
+WORKDIR /opt/apache-tomcat-9.0.91 /bin/
+ENV name="jarvis"
+EXPOSE 8080
+CMD ["/catalina.sh", "run"]
 
 
 
