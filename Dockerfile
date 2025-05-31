@@ -52,6 +52,8 @@ RUN apt-get update && apt-get install -y \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
+
+ 
 #FROM ubuntu       
 #RUN apt update -y
 #RUN apt install default-jre -y
