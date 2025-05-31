@@ -11,7 +11,6 @@ FROM ubuntu
 RUN apt update -y
 RUN apt install nginx -y
 RUN echo "hello world" > /var/testfile
-
 ENV name="test"
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
 ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz /opt
@@ -23,7 +22,13 @@ CMD ["/catalina.sh", "run"]
 
 
 
-
+FROM ubuntu       
+RUN apt update -y
+RUN apt install default-jre -y
+RUN apt install openjdk-11-jdk -y
+RUN echo "hello world" > /tmp/testfile
+RUN apt install nginx -y
+ENV name="test"
 
 
 
