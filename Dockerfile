@@ -36,7 +36,7 @@ FROM nginx:alpine
 COPY --from=builder /app/dist /usr/share/nginx/html
 
 
-# combine run command to minimize layer
+# Step3 : combine run command to minimize layer
 # Bad
 RUN apt-get update
 RUN apt-get install -y curl
