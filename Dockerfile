@@ -4,7 +4,6 @@ RUN apt install default-jre -y
 RUN apt install openjdk-11-jdk -y
 RUN echo "hello world" > /tmp/testfile
 RUN apt install nginx -y
-MAINTAINER bharti
 ENV name="test"
 
 
@@ -13,7 +12,7 @@ RUN apt update -y
 RUN apt install nginx -y
 RUN echo "hello chetan" > /var/testfile
 #MAINTAINER bharti
-ENV name="test"
+#ENV name="test"
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
 #ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz /opt
 #RUN tar -xvzf apache-tomcat-9.0.91.tar.gz -C /opt
