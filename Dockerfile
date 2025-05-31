@@ -18,6 +18,23 @@ CMD ["/catalina.sh", "run"]       #start Apache Tomcat, argument to run tomcat i
 
 
 
+
+
+
+
+
+
+
+# Stage 1: Build
+FROM node:18 AS builder
+WORKDIR /app
+COPY . .
+RUN npm install && npm run build
+
+# Stage 2: Final
+FROM nginx:alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+
 #FROM ubuntu       
 #RUN apt update -y
 #RUN apt install default-jre -y
