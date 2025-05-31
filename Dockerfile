@@ -44,6 +44,7 @@ RUN apt-get install -y curl
 # Better
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
+
 #FROM ubuntu       
 #RUN apt update -y
 #RUN apt install default-jre -y
