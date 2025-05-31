@@ -45,6 +45,13 @@ RUN apt-get install -y curl
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 
+
+#remove unused files
+RUN apt-get update && apt-get install -y \
+    curl \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
+
 #FROM ubuntu       
 #RUN apt update -y
 #RUN apt install default-jre -y
