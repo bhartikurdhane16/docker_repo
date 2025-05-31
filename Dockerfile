@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu                   #FROM alpine----multi-stage build
 RUN apt update -y
 RUN apt install nginx -y
 RUN echo "hello world" > /var/testfile
