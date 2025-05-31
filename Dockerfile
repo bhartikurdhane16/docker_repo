@@ -24,7 +24,7 @@ CMD ["/catalina.sh", "run"]       #start Apache Tomcat, argument to run tomcat i
 
 
 
-
+#Multistage build
 # Stage 1: Build
 FROM node:18 AS builder
 WORKDIR /app
