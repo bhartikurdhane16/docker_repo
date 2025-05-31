@@ -15,11 +15,11 @@ RUN echo "hello chetan" > /var/testfile
 #ENV name="test"
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
 ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz /opt
-#RUN tar -xvzf apache-tomcat-9.0.91.tar.gz -C /opt
-#WORKDIR /opt/apache-tomcat-9.0.91 /bin/
-#ENV name="jarvis"
-#EXPOSE 8080
-#CMD ["/catalina.sh", "run"]
+RUN tar -xvzf apache-tomcat-9.0.91.tar.gz -C /opt
+WORKDIR /opt/apache-tomcat-9.0.91 /bin/
+ENV name="jarvis"
+EXPOSE 8080
+CMD ["/catalina.sh", "run"]
 
 
 #Create docker volume
