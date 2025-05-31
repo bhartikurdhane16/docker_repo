@@ -13,6 +13,11 @@ CMD ["/catalina.sh", "run"]       #start Apache Tomcat, argument to run tomcat i
  
 
 
+
+
+
+
+
 #FROM ubuntu       
 #RUN apt update -y
 #RUN apt install default-jre -y
