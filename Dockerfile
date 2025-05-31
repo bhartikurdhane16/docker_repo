@@ -10,7 +10,7 @@ ENV name="test"
 FROM ubuntu
 RUN apt update -y
 RUN apt install nginx -y
-RUN echo "hello chetan" > /var/testfile
+RUN echo "hello world" > /var/testfile
 MAINTAINER bharti
 ENV name="test"
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
