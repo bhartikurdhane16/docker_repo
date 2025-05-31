@@ -4,6 +4,7 @@ RUN apt install default-jre -y
 RUN apt install openjdk-11-jdk -y
 RUN echo "hello world" > /tmp/testfile
 RUN apt install nginx -y
+MAINTAINER bharti
 
 
 FROM ubuntu
